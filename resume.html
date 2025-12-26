@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>簡單履歷｜Resume</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <!-- Navbar（跟首頁一致） -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">ABOUT ME</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav2">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="resume.html">履歷</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-5">
+      <div class="row g-4">
+        <!-- Left: Profile -->
+        <div class="col-12 col-lg-4">
+          <div class="card shadow-sm">
+            <div class="card-body text-center p-4">
+              <img
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=60"
+                alt="profile"
+                class="rounded-circle mb-3"
+                style="width: 120px; height: 120px; object-fit: cover;"
+              >
+              <h1 class="h4 mb-1">你的名字</h1>
+              <p class="text-secondary mb-3">學生｜簡單履歷作業</p>
+
+              <div class="text-start">
+                <p class="mb-1"><strong>Email：</strong> yourname@email.com</p>
+                <p class="mb-1"><strong>Phone：</strong> 09xx-xxx-xxx</p>
+                <p class="mb-0"><strong>Location：</strong> Taiwan</p>
+              </div>
+
+              <hr class="my-4">
+
+              <div class="text-start">
+                <p class="mb-2"><strong>技能（Skills）</strong></p>
+                <span class="badge text-bg-primary me-1 mb-1">Bootstrap</span>
+                <span class="badge text-bg-secondary me-1 mb-1">HTML</span>
+                <span class="badge text-bg-success me-1 mb-1">JavaScript</span>
+                <span class="badge text-bg-warning me-1 mb-1">簡報</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Content -->
+        <div class="col-12 col-lg-8">
+          <!-- About -->
+          <div class="card shadow-sm mb-4">
+            <div class="card-body p-4">
+              <h2 class="h5">自我介紹</h2>
+              <p class="mb-0">
+                我是＿＿＿＿（可填學校/科系），本次作業使用 Bootstrap 製作多頁網站，包含輪播、手風琴、卡片版面與 BMI 計算功能。
+              </p>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div class="card shadow-sm mb-4">
+            <div class="card-body p-4">
+              <h2 class="h5">學歷（Education）</h2>
+              <ul class="mb-0">
+                <li>＿＿＿＿大學 ＿＿＿＿系（在學中）</li>
+                <li>＿＿＿＿高中</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Experience -->
+          <div class="card shadow-sm mb-4">
+            <div class="card-body p-4">
+              <h2 class="h5">經歷（Experience）</h2>
+              <div class="mb-3">
+                <div class="d-flex justify-content-between">
+                  <strong>專題/作業：Bootstrap 網頁</strong>
+                  <span class="text-secondary">2025</span>
+                </div>
+                <ul class="mb-0">
+                  <li>使用 Navbar 建立多頁導覽（首頁 / 履歷）</li>
+                  <li>加入 Carousel、Accordion、Card 版面練習</li>
+                  <li>用 JavaScript 製作 BMI 計算器互動功能</li>
+                </ul>
+              </div>
+
+              <div>
+                <div class="d-flex justify-content-between">
+                  <strong>其他經驗（可自行新增）</strong>
+                  <span class="text-secondary">—</span>
+                </div>
+                <ul class="mb-0">
+                  <li>例：社團幹部、打工、志工、比賽等</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio -->
+          <div class="card shadow-sm">
+            <div class="card-body p-4">
+              <h2 class="h5">作品集（Portfolio）</h2>
+              <p class="mb-2">放連結最加分（沒有也沒關係）。</p>
+              <ul class="mb-0">
+                <li><a href="index.html">網站首頁（本作業）</a></li>
+                <li><a href="#" target="_blank" rel="noopener">作品連結 1（可自行填）</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center text-secondary mt-4">
+        <small>© 2025 Resume Page</small>
+      </footer>
+    </div>
+  </body>
+</html>
