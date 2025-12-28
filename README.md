@@ -77,7 +77,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <!-- 若你有 images/photo1.png，可改回：images/photo1.png -->
-            <img src="https://images.unsplash.com/photo-1520975958225-5f61f0f8a1a8?auto=format&fit=crop&w=1400&q=60" class="d-block w-100" alt="first slide">
+            <img src="https://picsum.photos/seed/firstslide/1400/600?v=3" class="d-block w-100" alt="first slide">
             <div class="carousel-caption d-none d-md-block">
               <h5>Bootstrap 作業展示</h5>
               <p>Carousel + Accordion + Cards + BMI 計算器</p>
