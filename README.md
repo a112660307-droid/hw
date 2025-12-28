@@ -88,7 +88,7 @@
             <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=60" class="d-block w-100" alt="second slide">
             <div class="carousel-caption d-none d-md-block">
               <h5>新聞卡片區</h5>
-              <p>把原本空白的卡片改成近期時事新聞</p>
+              <p></p>
             </div>
           </div>
 
@@ -195,7 +195,7 @@
       <!-- 新聞區 -->
       <div class="text-start mt-4" id="news">
         <h2 class="h3">近期時事新聞展示</h2>
-        <p class="text-secondary mb-3">以下卡片示範：圖片 + 標題 + 摘要 + 連結（把原本空白內容全部補齊）。</p>
+        <p class="text-secondary mb-3"></p>
 
         <div class="row justify-content-center">
           <!-- 1 -->
