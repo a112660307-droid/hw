@@ -85,7 +85,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=60" class="d-block w-100" alt="second slide">
+            <img src="https://picsum.photos/seed/firstslide/1400/600" class="d-block w-100" alt="first slide">
             <div class="carousel-caption d-none d-md-block">
               <h5>新聞卡片區</h5>
               <p></p>
