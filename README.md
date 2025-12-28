@@ -157,7 +157,6 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  下方「新聞」區塊已把原本空白卡片改成近期時事內容，並加入「閱讀更多」連結。
                 </div>
               </div>
             </div>
